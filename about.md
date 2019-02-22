@@ -5,4 +5,4 @@ permalink: /about/
 ---
 
 
-In construction. <svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#deathstar"></use></svg> 
+Page in construction. <svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#deathstar"></use></svg> 
