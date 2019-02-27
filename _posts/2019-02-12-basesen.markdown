@@ -14,23 +14,24 @@ categories: bases
 7. The opinion of the jury cannot be repealed.
 8. The jury will take the following conditions into account for evaluating projects:
 
-     1.	**Whether the data management is correct:**
+     1. **Whether the data management is correct:**
          * Modifications must be clearly stated and justified.
          * If there are any outliers, explain where, and why.
          * If some data group is excluded, explain where and why (i.e., if one only uses adults instead of children and adults, or European countries instead of all countries).
 
-     2.	**Whether the data visualization technique is correct:**
+     2. **Whether the data visualization technique is correct:**
          * There can be no deceptive axes or scales.
          * Axes must be correctly labeled and, if necessary, units labeled.
          * No conclusions can be drawn without an interval of confidence, value p or R<sup>2</sup>.
          * Bars or area charts cannot be truncated.
          * There are no resolution or range issues.
 
-     3.	**In general, that the image:**
+     3. **In general, that the image:**
          * Is comprehensible to those with colorblindness.
          * Does not have excessive decorations. 
          * Be clear and have an adequate resolution.
          * If interactive, be in web format.
+         
 9. For each open call for the contest, a single prize will be awarded, specified for each edition.
 10. The jury reserves the power to declare the prize null and void.
 11. The result will be made public in the site [https://rusersasturias.github.io/contest/][web] and the winner will be notified by email.
