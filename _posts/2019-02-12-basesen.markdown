@@ -7,12 +7,14 @@ categories: bases
 
 1. Any real person of any nationality may participate in the contest.
 2. Each participant may present a maximum of three projects.
-3. Projects can be sent to the email grupousuariosrasturias@gmail.com during the dates specified during each open call.
-4. During each open call, the database will be public, in which participants can access the visualization projects.
-5. The jury is external to the convening group and of the Health and Research Institute of the Principality of Asturias (ISPA); it consists of experts in statistics, data analysis, and visualization.
-6. The jury will take one month to evaluate the projects and select a result.
-7. The opinion of the jury cannot be repealed.
-8. The jury will take the following conditions into account for evaluating projects:
+3. Legends of the plots will be in english.
+4. It will be enough to reflect one aspect of the data, not all of it.
+5. Projects can be sent to the email grupousuariosrasturias@gmail.com during the dates specified during each open call.
+6. During each open call, the database will be public, in which participants can access the visualization projects.
+7. The jury is external to the convening group and of the Health and Research Institute of the Principality of Asturias (ISPA); it consists of experts in statistics, data analysis, and visualization.
+8. The jury will take one month to evaluate the projects and select a result.
+9. The opinion of the jury cannot be repealed.
+10. The jury will take the following conditions into account for evaluating projects:
 
      1. **Whether the data management is correct:**
          * Modifications must be clearly stated and justified.
@@ -20,6 +22,7 @@ categories: bases
          * If some data group is excluded, explain where and why (i.e., if one only uses adults instead of children and adults, or European countries instead of all countries).
 
      2. **Whether the data visualization technique is correct:**
+         * Code submission will be valued.
          * There can be no deceptive axes or scales.
          * Axes must be correctly labeled and, if necessary, units labeled.
          * No conclusions can be drawn without an interval of confidence, value p or R<sup>2</sup>.
@@ -32,10 +35,10 @@ categories: bases
          * Be clear and have an adequate resolution.
          * If interactive, be in web format.
          
-9. For each open call for the contest, a single prize will be awarded, specified for each edition.
-10. The jury reserves the power to declare the prize null and void.
-11. The result will be made public in the site [https://rusersasturias.github.io/contest/][web] and the winner will be notified by email.
-12. The winner will have a period of seven calendar days to accept the prize.
+11. For each open call for the contest, a single prize will be awarded, specified for each edition.
+12. The jury reserves the power to declare the prize null and void.
+13. The result will be made public in the site [https://rusersasturias.github.io/contest/][web] and the winner will be notified by email.
+14. The winner will have a period of seven calendar days to accept the prize.
 
 ___
 <br><br>
