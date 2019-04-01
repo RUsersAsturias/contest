@@ -26,7 +26,11 @@ layout: default
     <font size="+2">
     <h1>Primera edición del concurso de visualización de datos con R.</h1>
     </font>
-
+    <br><br><br><br>
+<font size="+1", color = "red">
+<b>ACTUALIZACIÓN</b> (1 de Abril 2019): Había una errata en la columna de hora debida a la cual no se reflejaba si era "am" o "pm", se ha solventado en los datos actuales, presentándose la hora en formato de 24h.
+ </font>
+    <br><br><br><br>
     <a href="https://raw.githubusercontent.com/RUsersAsturias/contest/gh-pages/_data/datatest.csv"><img src="/contest/img/nubed.png" style="width:63px; height:61px" title="Download" alt="Descargar datos"> <font size = +2><b>  Descarga de datos en formato .csv</b></font></a>
     <br><br>
     <a href="https://raw.githubusercontent.com/RUsersAsturias/contest/gh-pages/_data/data w hour.RData"><img src="/contest/img/nubed.png" style="width:63px; height:61px" title="Download" alt="Descargar datos"> <font size = +2><b>  Descarga de datos en formato .RData</b></font></a>
@@ -36,7 +40,24 @@ layout: default
     <font size="+2">
     Se convoca la primera edición del concurso de visualización de datos del grupo de usuarios de R de Asturias, patrocinada por el Instituto de Investigación Sanitaria del Principado de Asturias (ISPA).
     </font>
-    <br><br><br><br>
+        <br><br><br><br><br><br><br>
+
+<font size="+3">
+  Sobre los datos:
+</font>
+<br><br>
+    <font size="+1">
+Los datos que se presentan han sido obtenidos de la <a href="https://transparencia.gijon.es/"> web de transparencia del ayuntamiento de la ciudad de Gijón</a>. Los datos originales están disponibles en <a href="https://transparencia.gijon.es/search/risp_dataset/page/1808-catalogo-de-datos?utf8=%E2%9C%93&search=multas&search_sector=&search_format=&commit=Buscar&authenticity_token=eG8xbUDgovDWUz9vhGxCJ9JN3eeBO58vLsQ%2B6wtGxvk%3D"> el catálogo de datos abiertos. </a> <br>
+Los datos a utilizar para el concurso consisten en un subconjunto del registro de multas de los años 2015 a 2017 unificados en un solo archivo que se puede descargar más arriba en formato RData o CSV. <br>
+En estos datos se puede encontrar la fecha y hora en la que ocurrió la multa, el motivo, el lugar, el importe, el descuento percibido (de haberlo), la velocidad y velocidad límite y, para algunos casos, las coordenadas del lugar.
+    </font>
+
+    <br><br><br><br><br><br><br><br><br><br><br>
+
+    <font size="+3">
+  Sobre el concurso:
+</font><br><br>
+
 1.  A lo largo del día <b> 28 de febrero de 2019 se hará pública la base de datos</b> en <a href="https://rusersasturias.github.io/contest/"> https://rusersasturias.github.io/contest/ </a> y en el repositorio. Cualquier persona podrá participar enviando un gráfico, hecho con el programa <a href="https://www.r-project.org/">R.</a><br><br>
 2.  La <b>presentación de los proyectos</b> se podrá realizar entre el día <b> 1 de marzo de 2019 y las 23:59 h del día 30 de abril de 2019</b>, enviando un correo a <b>grupousuariosrasturias@gmail.com</b> con la visualización o la url a la misma en el formato que resulte más conveniente para el participante. En el correo se deberá especificar además nombre y apellidos del participante.<br><br>
 3.  El jurado de esta edición está compuesto por dos profesores de la <i>London School of Hygiene & Tropical Medicine</i> y un epidemiólogo de la <i>Conselleria de Sanitat Universal i Salut Pública de la Generalitat Valenciana</i>.<br><br>
@@ -46,7 +67,7 @@ layout: default
 </p>
 
 
-    <h2 class="post-list-heading">{{ page.list_title | default: "Bases" }}</h2>
+    <h2 class="post-list-heading"><font size = "+3">{{ page.list_title | default: "Bases" }}</font></h2>
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li>
