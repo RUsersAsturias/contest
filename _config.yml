@@ -15,11 +15,10 @@
 # in the templates via {{ site.myvariable }}.
 title: R Users - Asturias
 email: grupousuariosrasturias@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  We are a R users group based in Asturias, Spain. Our main goal as group is to promote the use of this statistical software among scientist in our region.
+description: We are a R users group based in Asturias, Spain. Our main goal as group is to promote the use of this statistical software among scientist in our region.
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "contest" # the base hostname & protocol for your site, e.g. http://example.com ##contest
+baseurl: "contest" # the subpath of your site, e.g. /blog ##contest
+url: "" # the base hostname & protocol for your site, e.g. http://example.com 
 
 twitter_username: grupoRasturias
 github_username:  RUsersAsturias
