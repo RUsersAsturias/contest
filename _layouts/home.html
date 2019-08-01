@@ -19,62 +19,95 @@ layout: default
 
 <br>
 <div align="center"><font size="+2">
-    <u>Primera edición: Marzo - Abril 2019</u>
+    <u>Segunda edición: Agosto - Octubre 2019</u>
 </font>
     <br><br><br><br>
 
     <font size="+2">
-    <h1>Primera edición del concurso de visualización de datos con R.</h1>
+    <h1>Segunda edición del concurso de visualización de datos con R.</h1>
     </font>
     <br><br><br><br>
 <!-- <font size="+1", color = "red">
 <b>ACTUALIZATION</b> (1 de abril 2019): Había una errata en la columna de hora debida a la cual no se reflejaba si era "am" o "pm", se ha solventado en los datos actuales, presentándose la hora en formato de 24h.
  </font> -->
 
-<!-- <br><br><br><br>
-    <a href="https://raw.githubusercontent.com/RUsersAsturias/contest/gh-pages/_data/data w hour.csv"><img src="/contest/img/nubed.png" style="width:63px; height:61px" title="Download" alt="Descargar datos"> <font size = +2><b>  Descarga de datos en formato .csv</b></font></a>
+
+<br><br><br><br>
+    <a href="https://raw.githubusercontent.com/RUsersAsturias/contest/gh-pages/_data/Canizal.RData"><img src="/contest/img/nubed.png" style="width:63px; height:61px" title="Download" alt="Descargar datos"> <font size = +2><b> Datos de Cañizal</b></font></a>
     <br><br>
-    <a href="https://raw.githubusercontent.com/RUsersAsturias/contest/gh-pages/_data/data w hour.RData"><img src="/contest/img/nubed.png" style="width:63px; height:61px" title="Download" alt="Descargar datos"> <font size = +2><b>  Descarga de datos en formato .RData</b></font></a>
-
+    <a href="https://raw.githubusercontent.com/RUsersAsturias/contest/gh-pages/_data/Carrizal.RData"><img src="/contest/img/nubed.png" style="width:63px; height:61px" title="Download" alt="Descargar datos"> <font size = +2><b>  Datos de Carrizal</b></font></a>
+      <br><br>
+    <a href="https://raw.githubusercontent.com/RUsersAsturias/contest/gh-pages/_data/Granja.RData"><img src="/contest/img/nubed.png" style="width:63px; height:61px" title="Download" alt="Descargar datos"> <font size = +2><b>  Datos de Granja</b></font></a>
+    <br><br>
   </h1>
-    <br><br> -->
 
-<font size="+2", color = "red">
-<b></b> El ganador de la primera edición ha sido Antonio Díaz Muñiz, con esta participación: <a href="https://adiaz.shinyapps.io/infractionmap/">https://adiaz.shinyapps.io/infractionmap/</a>
- </font>
 
- <br><br><br><br>
-    <font size="+2">
-    En breve se publicará la información sobre la segunda edición del concurso.
-    </font>
-        <br><br><br><br><br><br><br>
+
       </div>
 
       
 <font size="+3">
-  Sobre los datos:
+  Sobre los datos: 
 </font>
 <br><br>
-    <font size="+1">
-Los datos que se presentan han sido obtenidos de la <a href="https://transparencia.gijon.es/"> web de transparencia del ayuntamiento de la ciudad de Gijón</a>. Los datos originales están disponibles en <a href="https://transparencia.gijon.es/search/risp_dataset/page/1808-catalogo-de-datos?utf8=%E2%9C%93&search=multas&search_sector=&search_format=&commit=Buscar&authenticity_token=eG8xbUDgovDWUz9vhGxCJ9JN3eeBO58vLsQ%2B6wtGxvk%3D"> el catálogo de datos abiertos. </a> <br>
-Los datos a utilizar para el concurso consisten en un subconjunto del registro de multas de los años 2015 a 2017 unificados en un solo archivo que se puede descargar más arriba en formato RData o CSV. <br>
-En estos datos se puede encontrar la fecha y hora en la que ocurrió la multa, el motivo, el lugar, el importe, el descuento percibido (de haberlo), la velocidad y velocidad límite y, para algunos casos, las coordenadas del lugar.
-    </font>
 
-    <br><br><br><br><br><br><br><br><br><br><br>
+La base de datos de la segunda edición del Concurso de Visualización de datos con R está compuesta por datos tomados durante diez años, en intervalos de diez minutos, y que han sido registrados en tres <b>estaciones meteorológicas automáticas</b>, pertenecientes a la Red de Estaciones de Medición de la Humedad del Suelo de la Universidad de Salamanca (REMEDHUS), integrada en la International Soil Moisture Network (<a href="https://ismn.geo.tuwien.ac.at/en/">ISMN</a>). Esta infraestructura pertenece al Grupo de Investigación en Recursos Hídricos de la Universidad de Salamanca (<a href="http://campus.usal.es/~hidrus/index.htm">HIDRUS</a>), adscrito al Instituto Hispano-Luso de Investigaciones Agrarias (<a href="https://ciale.usal.es/">CIALE</a>), y está localizada en la provincia de Zamora (España).
+
+
+
+    <br><br>
+<font size="+2">
+  Variables en los datos:
+</font>
+<br><br>
+
+<ol>
+
+<li><b>Timestamp:</b>Marca de fecha y hora. </li> <br>
+<li><b>Lluvia total:</b>cantidad de lluvia acumulada en ese intervalo (10 minutos), expresada en milímetros (mm).</li> <br>
+<li><b>Velocidad máxima del viento:</b> velocidad máxima del viento en un instante (también llamada racha máxima), en ese intervalo de tiempo. Se expresa en metros/segundo (m/s).</li> <br>
+<li><b>Velocidad media del viento:</b>  velocidad media en el intervalo dado (10 minutos). Se expresa en metros/segundos (m/s). </li> <br>
+<li><b>Dirección media del viento:</b> en el intervalo de diez minutos, el valor medio de la dirección del viento, expresado en grados (sentido de las agujas del reloj, desde el norte). </li> <br>
+<li><b>Desviación estándar de la dirección del viento:</b> desviación estándar de la variable anterior, expresada en grados (sentido de las agujas del reloj, desde el norte). </li> <br>
+<li><b>Temperatura del aire:</b> media de la temperatura en el periodo de tiempo medido (10 minutos), expresada en grados centígrados (⁰C). </li> <br>
+<li><b>Promedio de la presión de vapor:</b> promedio de la humedad que hay en el aire en ese periodo de tiempo (10 minutos), pero expresada en términos de presión vapor. Esta es la cantidad de presión con la que contribuye el vapor de agua a la presión atmosférica. Se expresa en kilopascales (kPa). </li> <br>
+<li><b>Promedio del déficit de la presión de vapor:</b> promedio, en ese periodo de tiempo de 10 minutos, de la diferencia entre la presión de vapor saturante y la real, es decir, cuánto nos falta con la presión de vapor que tenemos para llegar a la saturación. En otras palabras, cuán seco está el aire. Así, cuando este valor es muy alto, se separa / aleja mucho de la saturación (hay poco vapor en el aire). Esto se traduce en que la atmósfera está demandando agua, lo cual hace que la fotosíntesis de las plantas se resienta. Estas cierran los estomas para protegerse y no perder agua, y eso va en su contra. Se expresa en kilopascales (kPa). </li> <br>
+<li><b>Promedio de la humedad relativa:</b> esta es otra forma de expresar la humedad, de manera relativa. Es el promedio, en ese periodo de tiempo de 10 minutos, del porcentaje de humedad que tiene el aire, respecto a la saturación. Es una, producto de dividir la humedad que tiene el aire entre la humedad de saturación a esa misma temperatura, y multiplicándolo por cien. Se expresa en porcentaje (%).</li> <br>
+<li><b>Promedio de radiación solar:</b> promedio, en ese periodo de tiempo de 10 minutos, de la cantidad de energía que se recibe del Sol o, en otras palabras, de la energía incidente que llega a la superficie de la Tierra. Se expresa en vatios por metro cuadrado (W/m2).</li> <br>
+<li><b>Radiación acumulada total:</b> acumulado de la radiación solar en el intervalo de 10 minutos. Se expresa en megajulios por metro cuadrado (MJ/m2).</li> <br>
+
+<li><b>Latitude&longitude:</b> Latitud y longitud de la estación.</li><br>
+
+</ol>
+
+
+
+
+
+    <br><br><br><br><br><br><br>
 
     <font size="+3">
   Sobre el concurso:
 </font><br><br>
 
-1.  A lo largo del día <b> 28 de febrero de 2019 se hará pública la base de datos</b> en <a href="https://rusersasturias.github.io/contest/"> https://rusersasturias.github.io/contest/ </a> y en el repositorio. Cualquier persona podrá participar enviando un gráfico, hecho con el programa <a href="https://www.r-project.org/">R.</a><br><br>
-2.  La <b>presentación de los proyectos</b> se podrá realizar entre el día <b> 1 de marzo de 2019 y las 23:59 h del día 30 de abril de 2019</b>, enviando un correo a <b>grupousuariosrasturias@gmail.com</b> con la visualización o la url a la misma en el formato que resulte más conveniente para el participante. En el correo se deberá especificar además nombre y apellidos del participante.<br>
+1.  A lo largo de <b> agosto de 2019 se hará pública la base de datos</b> en <a href="https://rusersasturias.github.io/contest/"> https://rusersasturias.github.io/contest/ </a> y en el repositorio. Cualquier persona podrá participar enviando un gráfico, hecho con el programa <a href="https://www.r-project.org/">R.</a><br><br>
+2.  La <b>presentación de los proyectos</b> se podrá realizar <b> entre el día de publicación de los datos y las 23:59 h del día 31 de Octubre de 2019</b>, enviando un correo a <b>grupousuariosrasturias@gmail.com</b> con la visualización o la url a la misma en el formato que resulte más conveniente para el participante. En el correo se deberá especificar además nombre, apellidos, email, trasfondo académico o laboral/profesional y país de residencia del participante.<br> El campo asunto del correo deberá incluir "Entrega segundo concurso visualización de datos".
 <b>Junto al gráfico se podrá incluir un brevísimo texto explicativo en inglés.</b><br><br>
 3.  El jurado de esta edición está compuesto por dos profesores de la <i>London School of Hygiene & Tropical Medicine</i> y un epidemiólogo de la <i>Conselleria de Sanitat Universal i Salut Pública de la Generalitat Valenciana</i>.<br><br>
 4.  El jurado emitirá su dictamen a lo largo del día 31 de mayo de 2019. La resolución se hará pública <a href="https://rusersasturias.github.io/contest/"> en la web del concurso</a> y será comunicada por correo electrónico al ganador.<br><br>
-5.  La cuantía del premio será de <b>trescientos euros (300 €)</b>. <br><br>
+5.  La cuantía del premio será de <b>cuatrocientos euros (400 €)</b> para el primer premio y de <b> doscientos euros (200 €)</b> para el segundo premio. <br><br>
 6.  Las bases se pueden consultar <a href="https://rusersasturias.github.io/contest/bases/2019/02/12/baseses.html"> en esta página</a>.<br><br><br>
 </p>
+
+ <br><br><br><br>
+
+<div align="center">
+<font size="+2", color = "red">
+<b></b> El ganador de la primera edición ha sido Antonio Díaz Muñiz, con esta participación: <a href="https://adiaz.shinyapps.io/infractionmap/">https://adiaz.shinyapps.io/infractionmap/</a>
+ </font>
+
+ <br><br><br><br>
+</div>
 
 
     <h2 class="post-list-heading"><font size = "+3">{{ page.list_title | default: "Bases" }}</font></h2>

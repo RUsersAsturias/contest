@@ -35,7 +35,7 @@ categories: bases
          * Be clear and have an adequate resolution.
          * If interactive, be in web format.
          
-11. For each open call for the contest, a single prize will be awarded, specified for each edition.
+11. If any online project is edited after the stablished deadline for participation, but before the jury issues an opinion, it may be disqualified.
 12. The jury reserves the power to declare the prize null and void.
 13. The result will be made public in the site [https://rusersasturias.github.io/contest/][web] and the winner will be notified by email.
 14. The winner will have a period of seven calendar days to accept the prize.

@@ -7,7 +7,7 @@ categories: bases
 
 
 1. Podrá participar en el mismo cualquier persona física de cualquier nacionalidad, a título individual.
-2. Cada participante podrá presentar un máximo de tres proyectos.
+2. Cada participante podrá presentar un máximo de cuatro proyectos.
 3. Las leyendas de los gráficos deberán ir en inglés.
 4. No es necesario que la representación gráfica refleje toda la información recogida en los datos, es suficiente con representar un aspecto.
 5. Los proyectos se enviarán a la dirección de correo electrónico **grupousuariosrasturias@gmail.com** entre las fechas que se especifiquen en cada convocatoria del concurso.
@@ -36,8 +36,7 @@ categories: bases
          * Sea nítida y tenga una resolución adecuada.
          * Si es interactiva, que sea web.
 
-
-11. En cada convocatoria del concurso se otorgará un único premio cuya cuantía se especificará en cada edición.
+11. De descubrirse una edición posterior a la fecha límite de entrega general pero anterior a la fecha de veredicto del jurado, **de algún proyecto online**, se valorará su descalificación del concurso.
 12. El jurado se reserva la potestad de declarar desierto el premio.
 13. La resolución se hará pública en la [web del grupo][web] y será comunicada por correo electrónico al ganador. 
 14. El ganador dispondrá de un plazo de siete días naturales para la aceptación del premio.

@@ -19,37 +19,33 @@ layout: default
 
 <br>
 <div align="center"><font size="+2">
-    <u>First edition: March - April 2019</u>
+    <u>Second edition: August - October 2019</u>
 </font>
     <br><br><br><br>
 
     <font size="+2">
-    <h1>Data visualization contest with R: first edition</h1>
+    <h1>Data visualization contest with R: second edition</h1>
   </font>
     <br><br><br><br>
 <!-- <font size="+1", color = "red">
 <b>ACTUALIZATION</b> (1 April 2019): There was a mistake in "hour" column by which there was not reflected if it was "am" or "pm", this is solved in current data, where hour is in 24h format.
  </font> -->
  
-<font size="+1", color = "red">
-<b></b> The winner has been Antonio Díaz Muñiz, with this participation: <a href="https://adiaz.shinyapps.io/infractionmap/">https://adiaz.shinyapps.io/infractionmap/</a>
- </font>
 
 
 
 
-<!-- <br><br><br><br>
-    <a href="https://raw.githubusercontent.com/RUsersAsturias/contest/gh-pages/_data/data w hour.csv"><img src="/contest/img/nubed.png" style="width:63px; height:61px" title="Download" alt="Descargar datos"> <font size = +2><b>  Data download in .csv</b></font></a>
+
+<br><br><br><br>
+    <a href="https://raw.githubusercontent.com/RUsersAsturias/contest/gh-pages/_data/Canizal.RData"><img src="/contest/img/nubed.png" style="width:63px; height:61px" title="Download" alt="Descargar datos"> <font size = +2><b> Data from Cañizal</b></font></a>
     <br><br>
-    <a href="https://raw.githubusercontent.com/RUsersAsturias/contest/gh-pages/_data/data w hour.RData"><img src="/contest/img/nubed.png" style="width:63px; height:61px" title="Download" alt="Descargar datos"> <font size = +2><b>  Data download in .RData</b></font></a>
-    <br><br> -->
+    <a href="https://raw.githubusercontent.com/RUsersAsturias/contest/gh-pages/_data/Carrizal.RData"><img src="/contest/img/nubed.png" style="width:63px; height:61px" title="Download" alt="Descargar datos"> <font size = +2><b>  Data from Carrizal</b></font></a>
+      <br><br>
+    <a href="https://raw.githubusercontent.com/RUsersAsturias/contest/gh-pages/_data/Granja.RData"><img src="/contest/img/nubed.png" style="width:63px; height:61px" title="Download" alt="Descargar datos"> <font size = +2><b>  Data from Granja</b></font></a>
+    <br><br>
 
 
 
- <br><br><br><br>
-    <font size="+2">
-    Second edition information will be available soon.
-    </font>
         <br><br><br><br><br><br><br>
       </div>
 
@@ -57,26 +53,57 @@ layout: default
   About the data:
 </font>
 <br><br>
-    <font size="+1">
-Data has been obtained from the <a href="https://transparencia.gijon.es/"> transparency web of Gijón's city</a>. Original data can be accesed <a href="https://transparencia.gijon.es/search/risp_dataset/page/1808-catalogo-de-datos?utf8=%E2%9C%93&search=multas&search_sector=&search_format=&commit=Buscar&authenticity_token=eG8xbUDgovDWUz9vhGxCJ9JN3eeBO58vLsQ%2B6wtGxvk%3D"> in its data catalog. </a> <br>
-Data to be used in the contest is a subset of the fines register from years 2015 to 2017 that has been unified in a single file, which can be downloaded in RData or CSV format. <br>
-In this data it can be found the date and hour of the fine, motive, place, fee, discount perceived (if any), speed and limit speed, and, for some cases, exact coordinates of the fine.
-    </font>
+The database for the second Data Visualization Contest with R consists of data retrieved over a period of ten years, in ten-minute intervals, and which have been registered in three <b>automated weather stations</b>. These stations belong to the Soil Moisture Network of the University of Salamanca (REMEDHUS), integrated in the International Soil Moisture Network (<a href="https://ismn.geo.tuwien.ac.at/en/">ISMN</a>). The infrastructure belongs to the Research Group in Water Resources of the University of Salamanca (<a href="http://campus.usal.es/~hidrus/index.htm">HIDRUS</a>), attached to the Spanish-Portuguese Agricultural Research Centre (<a href="https://ciale.usal.es/">CIALE</a>), and it is located in the province of Zamora (Southeast Spain).
+<br><br>
 
-    <br><br><br><br><br><br><br><br><br><br><br>
+
+<font size="+3">
+  Sobre los datos: 
+</font>
+<br><br>
+<ol>
+
+<li><b>Total precipitation:</b> amount of precipitation accumulated in the measured period of time (10 minutes), expressed in millimeters (mm).</li><br>
+<li><b>Maximum wind speed:</b>  maximum speed value recorded at a given time, in the measured period of time (10 minutes). It is expressed in meters per second (m/s).</li><br>
+<li><b>Average wind speed:</b>  average of the wind speed in the measured period of time (10 minutes). It is expressed in meters per second (m/s).</li><br>
+<li><b>Average wind direction:</b>  in the measured period of time (10 minutes), mean value of the wind direction, expressed in degrees (clockwise from north).</li><br>
+<li><b>Standard deviation of the wind direction:</b>  standard deviation of the previous variable. It is also expressed in degrees (clockwise from north).</li><br>
+<li><b>Air temperature:</b>  average of the air temperature in the measured period of time (10 minutes), expressed in the Celsius scale (⁰C).</li><br>
+<li><b>Average vapor pressure:</b>  average of the humidity found in the air in the measured period of time (10 minutes), expressed in terms of vapor pressure. This is the amount of pressure with which the water vapor contributes to the atmospheric pressure. It is expressed in kilopascals (kPa).</li><br>
+<li><b>Average vapor-pressure deficit:</b> average, in the measured period of time (10 minutes), of the difference between the saturated vapor pressure and the actual vapor pressure present in the air. In other words, it measures the dryness of the air. Thus, when this value is high, there is little water vapor in the air; it is far from the saturation point. This translates as the atmosphere demanding water and the plants reducing their photosynthetic activity – closing their stomata – in order to avoid losing water. It is expressed in kilopascals (kPa).</li><br>
+<li><b>Average relative humidity:</b> average, in the measured period of time (10 minutes), of the percentage of the humidity of the air, regarding its saturation point. It is the result of dividing the humidity of the air between the saturation humidity at that same temperature. It is expressed as a percentage (%).</li><br>
+<li><b>Average solar radiation:</b> average, in the measured period of time (10 minutes), of the amount of energy received from the Sun or, in other words, the incident energy that reaches the surface of the Earth. It is expressed in watts per square meter (W/m2).</li><br>
+<li><b>Total (cumulative) radiation:</b> solar radiation accumulated in the measured period of time (10 minutes). It is expressed in megajoules per square meter (MJ/m2).</li><br>
+
+<li><b>Latitude&longitude:</b> Station latitude and longitude.</li><br>
+
+
+</ol>
+
+
+
+    <br><br><br><br><br><br><br>
 
     <font size="+3">
   About the contest:
 </font><br><br>
 
-1.  During <b> February 28<sup>th</sup>, 2019, the database base will be made publicly available</b> at <a href="https://rusersasturias.github.io/contest/"> https://rusersasturias.github.io/contest/ </a> and in the repository. Anybody will be able to participate sending a plot made with <a href="https://www.r-project.org/">R software.</a><br><br>
-2.  <b>Project presentation</b> will take place between <b> March 1<sup>st</sup>, 2019 and 11:59 PM on April 30<sup>th</sup>, 2019</b>, sending an e-mail to <b>grupousuariosrasturias@gmail.com</b> with the visualization or the url to it in the prefered format. Name and surname will be specified in the e-mail.<br>
-<b>A very brief explanatory text can be attached to the graphic.</b><br><br>
+1.  During <b> August 2019, the database base will be made publicly available</b> at <a href="https://rusersasturias.github.io/contest/"> https://rusersasturias.github.io/contest/ </a> and in the repository. Anybody will be able to participate sending a plot made with <a href="https://www.r-project.org/">R software.</a><br><br>
+2.  <b>Project presentation</b> will take place between <b> the day the data is published and 11:59 PM on October 31<sup>st</sup>, 2019</b>, sending an e-mail to <b>grupousuariosrasturias@gmail.com</b> with the visualization or the url to it, in the prefered format. Name, surname, e-mail, professional/laboral background and country of residence will be specified in the e-mail.<br> The subject of the e-mail must include "Second data visualization contest".
+<b>A very brief explanatory text in english, can be attached to the graphic.</b><br><br>
 3.  This edition's jury is comprised of two assistant professors of the <i>London School of Hygiene & Tropical Medicine</i> and an epidemiologist of the <i>Conselleria de Sanitat Universal i Salut Pública de la Generalitat Valenciana</i>.<br><br>
-4.  The jury will issue its <b>opinion on the 31<sup>st</sup> of May, 2019</b>. The declaration will be made public <a href="https://rusersasturias.github.io/contest/"> on the site of the contest,</a> and the winner will be notified by e-mail.<br><br>
-5.  The price amount is <b>three hundred euros (300 €)</b>. <br><br>
+4.  The jury will issue its <b>opinion on November, 2019</b>. The declaration will be made public <a href="https://rusersasturias.github.io/contest/"> on the site of the contest,</a> and the winner will be notified by e-mail.<br><br>
+5.  The price amount is <b>four hundred euros (400 €)</b> for the first prize and <b>two hundred euros (200 €)</b> for the second prize. <br><br>
 6.  Contest's bases can be accesed <a href="https://rusersasturias.github.io/contest/bases/2019/02/12/basesen.html"> in this website</a>.<br><br><br>
 </p>
+
+<br><br><br><br><br><br>
+<div align="center">
+<font size="+1", color = "red">
+<b></b> The first edition winner has been Antonio Díaz Muñiz, with this participation: <a href="https://adiaz.shinyapps.io/infractionmap/">https://adiaz.shinyapps.io/infractionmap/</a>
+ </font>
+</div>
+ <br><br><br><br><br><br>
 
 
     <h2 class="post-list-heading"><font size = "+3">{{ page.list_title | default: "Rules of the contest" }}</font></h2>
